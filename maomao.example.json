@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "type": "siyuan",
+      "enabled": true,
+      "config": {
+        "api_url": "http://127.0.0.1:6806",
+        "token": "your-token-here",
+        "box_id": "your-box-id",
+        "root_block_id": ""
+      }
+    },
+    {
+      "type": "local_doc",
+      "enabled": true,
+      "config": {
+        "path": "/path/to/your/repo/docs",
+        "patterns": ["*.md", "*.txt", "*.rst"],
+        "recursive": true
+      }
+    }
+  ],
+  "ollama": {
+    "base_url": "http://127.0.0.1:11434",
+    "embedding_model": "bge-m3",
+    "embedding_dim": 1024,
+    "timeout": 120
+  },
+  "qdrant": {
+    "host": "127.0.0.1",
+    "port": 6333,
+    "collection_name": "maomao_knowledge",
+    "prefer_grpc": false
+  },
+  "chunk": {
+    "chunk_size": 512,
+    "chunk_overlap": 50,
+    "min_chunk_size": 50
+  },
+  "incremental": {
+    "enabled": true,
+    "state_file": ".maomao/state.json"
+  },
+  "log_level": "INFO"
+}
