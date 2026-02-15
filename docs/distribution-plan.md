@@ -178,7 +178,7 @@ pip install git+https://github.com/your-org/maomao.git
 ### 2.1 当前状态分析
 
 **现有配置** ([mcp-server/package.json](../mcp-server/package.json)):
-- 包名: `@luckypeak/mcp-server`
+- 包名: `@luckypeak/maomao`
 - 版本: `0.1.0`
 - Node 版本要求: `>=18.0.0`
 - 已配置 bin 入口: `maomao-mcp`
@@ -195,7 +195,7 @@ pip install git+https://github.com/your-org/maomao.git
 
 ```json
 {
-  "name": "@luckypeak/mcp-server",
+  "name": "@luckypeak/maomao",
   "version": "0.1.0",
   "description": "MCP Server for Maomao Knowledge Base - AI Coding Knowledge Search",
   "type": "module",
@@ -319,13 +319,13 @@ jobs:
 
 ```bash
 # 全局安装（推荐用于 MCP 集成）
-npm install -g @luckypeak/mcp-server
+npm install -g @luckypeak/maomao
 
 # 本地安装
-npm install @luckypeak/mcp-server
+npm install @luckypeak/maomao
 
 # 使用 npx 直接运行（无需安装）
-npx @luckypeak/mcp-server
+npx @luckypeak/maomao
 ```
 
 ---
@@ -1171,7 +1171,7 @@ echo "  3. 搜索: maomao search \"你的查询\""
 pip install luckypeak-maomao
 
 # 2. 安装 MCP Server（可选，用于 AI 编码助手集成）
-npm install -g @luckypeak/mcp-server
+npm install -g @luckypeak/maomao
 
 # 3. 运行环境检测和初始化
 maomao setup

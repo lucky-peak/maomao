@@ -50,10 +50,10 @@ MCP Server 用于与 AI 编码助手（如 Claude Desktop）集成：
 
 ```bash
 # 全局安装
-npm install -g @luckypeak/mcp-server
+npm install -g @luckypeak/maomao
 
 # 或使用 npx 直接运行（无需安装）
-npx @luckypeak/mcp-server
+npx @luckypeak/maomao
 ```
 
 #### 3. 安装外部依赖
