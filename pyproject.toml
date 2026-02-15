@@ -65,10 +65,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/maomao-ai/maomao"
-Documentation = "https://github.com/maomao-ai/maomao#readme"
-Repository = "https://github.com/maomao-ai/maomao.git"
-Issues = "https://github.com/maomao-ai/maomao/issues"
+Homepage = "https://github.com/lucky-peak/maomao"
+Documentation = "https://github.com/lucky-peak/maomao#readme"
+Repository = "https://github.com/lucky-peak/maomao.git"
+Issues = "https://github.com/lucky-peak/maomao/issues"
 
 [project.scripts]
 maomao = "maomao.cli:app"

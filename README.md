@@ -29,7 +29,7 @@
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/maomao-ai/maomao/main/scripts/quickstart.sh | bash
+curl -fsSL https://raw.githubusercontent.com/lucky-peak/maomao/main/scripts/quickstart.sh | bash
 ```
 
 ### 方式二：标准安装
@@ -41,7 +41,7 @@ curl -fsSL https://raw.githubusercontent.com/maomao-ai/maomao/main/scripts/quick
 pip install maomao
 
 # 或从源码安装
-pip install git+https://github.com/maomao-ai/maomao.git
+pip install git+https://github.com/lucky-peak/maomao.git
 ```
 
 #### 2. 安装 MCP Server（可选）
@@ -90,7 +90,7 @@ docker run -d --name maomao-qdrant -p 6333:6333 qdrant/qdrant
 
 ```bash
 # 克隆仓库
-git clone https://github.com/maomao-ai/maomao.git
+git clone https://github.com/lucky-peak/maomao.git
 cd maomao
 
 # 安装 Python 依赖

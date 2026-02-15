@@ -38,13 +38,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maomao-ai/maomao.git",
+    "url": "https://github.com/lucky-peak/maomao.git",
     "directory": "mcp-server"
   },
   "bugs": {
-    "url": "https://github.com/maomao-ai/maomao/issues"
+    "url": "https://github.com/lucky-peak/maomao/issues"
   },
-  "homepage": "https://github.com/maomao-ai/maomao#readme",
+  "homepage": "https://github.com/lucky-peak/maomao#readme",
   "engines": {
     "node": ">=18.0.0"
   },
