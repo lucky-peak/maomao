@@ -17,7 +17,7 @@ echo "✓ Python 版本: $PYTHON_VERSION"
 # 检查 maomao 是否已安装
 if ! command -v maomao &> /dev/null; then
     echo "📦 Maomao 未安装，正在安装..."
-    pip install -e . || pip install maomao
+    pip install -e . || pip install luckypeak-maomao
 fi
 echo "✓ Maomao 已安装"
 

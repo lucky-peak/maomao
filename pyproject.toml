@@ -1,5 +1,5 @@
 [project]
-name = "maomao"
+name = "luckypeak-maomao"
 version = "0.1.0"
 description = "AI编码知识库系统 - 本地向量化 + MCP集成"
 readme = "README.md"

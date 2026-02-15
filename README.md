@@ -38,7 +38,7 @@ curl -fsSL https://raw.githubusercontent.com/lucky-peak/maomao/main/scripts/quic
 
 ```bash
 # 从 PyPI 安装（推荐）
-pip install maomao
+pip install luckypeak-maomao
 
 # 或从源码安装
 pip install git+https://github.com/lucky-peak/maomao.git

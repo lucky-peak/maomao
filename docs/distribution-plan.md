@@ -162,10 +162,10 @@ jobs:
 
 ```bash
 # 从 PyPI 安装（推荐）
-pip install maomao
+pip install luckypeak-maomao
 
 # 安装开发版本
-pip install maomao[dev]
+pip install luckypeak-maomao[dev]
 
 # 从 GitHub 安装最新版本
 pip install git+https://github.com/your-org/maomao.git
@@ -1168,7 +1168,7 @@ echo "  3. 搜索: maomao search \"你的查询\""
 
 ```bash
 # 1. 安装 Python 包
-pip install maomao
+pip install luckypeak-maomao
 
 # 2. 安装 MCP Server（可选，用于 AI 编码助手集成）
 npm install -g @luckypeak/mcp-server
@@ -1221,4 +1221,4 @@ curl -fsSL https://raw.githubusercontent.com/your-org/maomao/main/scripts/quicks
 | 配置管理 | 交互式配置、验证功能、模板支持 |
 | 用户体验 | 清晰的 CLI 界面、错误处理、安装验证 |
 
-用户现在可以通过 `pip install maomao` 一键安装，然后运行 `maomao setup` 完成环境配置，大大降低了使用门槛。
+用户现在可以通过 `pip install luckypeak-maomao` 一键安装，然后运行 `maomao setup` 完成环境配置，大大降低了使用门槛。
