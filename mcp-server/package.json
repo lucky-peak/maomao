@@ -1,5 +1,5 @@
 {
-  "name": "@maomao/mcp-server",
+  "name": "@luckypeak/mcp-server",
   "version": "0.1.0",
   "description": "MCP Server for Maomao Knowledge Base - AI Coding Knowledge Search",
   "type": "module",
