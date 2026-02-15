@@ -3,7 +3,35 @@ name = "maomao"
 version = "0.1.0"
 description = "AI编码知识库系统 - 本地向量化 + MCP集成"
 readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.11"
+authors = [
+    {name = "Maomao Team"}
+]
+keywords = [
+    "ai",
+    "knowledge-base",
+    "vector-database",
+    "ollama",
+    "qdrant",
+    "mcp",
+    "rag",
+    "embedding",
+    "coding-assistant",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Documentation",
+    "Typing :: Typed",
+]
 dependencies = [
     "qdrant-client>=1.7.0",
     "ollama>=0.1.0",
@@ -32,7 +60,15 @@ dev = [
     "pytest-asyncio>=0.23.0",
     "ruff>=0.1.0",
     "mypy>=1.8.0",
+    "build>=1.0.0",
+    "twine>=4.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/maomao-ai/maomao"
+Documentation = "https://github.com/maomao-ai/maomao#readme"
+Repository = "https://github.com/maomao-ai/maomao.git"
+Issues = "https://github.com/maomao-ai/maomao/issues"
 
 [project.scripts]
 maomao = "maomao.cli:app"

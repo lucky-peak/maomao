@@ -1,13 +1,18 @@
 {
   "name": "@maomao/mcp-server",
   "version": "0.1.0",
-  "description": "MCP Server for Maomao Knowledge Base",
+  "description": "MCP Server for Maomao Knowledge Base - AI Coding Knowledge Search",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
     "maomao-mcp": "dist/index.js"
   },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -15,7 +20,33 @@
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "knowledge-base",
+    "vector-search",
+    "ollama",
+    "qdrant",
+    "coding-assistant",
+    "rag"
+  ],
+  "author": "Maomao Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maomao-ai/maomao.git",
+    "directory": "mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/maomao-ai/maomao/issues"
+  },
+  "homepage": "https://github.com/maomao-ai/maomao#readme",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
@@ -30,7 +61,8 @@
     "@typescript-eslint/parser": "^6.19.0",
     "vitest": "^3.0.0"
   },
-  "engines": {
-    "node": ">=18.0.0"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
